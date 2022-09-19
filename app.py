@@ -45,12 +45,6 @@ with c30:
     st.title("DAEN 690 Team Concorde: NLP Algorithms")
 
 
-logo1, logo2 = st.columns([3, 19])
-with logo1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/George_Mason_University_logo.svg/2560px-George_Mason_University_logo.svg.png", width=120)
-with logo2:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Seal_of_the_United_States_Federal_Aviation_Administration.svg/1200px-Seal_of_the_United_States_Federal_Aviation_Administration.svg.png", width=120)
-
 st.markdown("")
 st.markdown("## ✏️ Paste text")
 
