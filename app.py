@@ -154,7 +154,7 @@ Note that the *Keyword diversity* slider only works if the *MMR* checkbox is tic
             height=510,
         )
 
-        MAX_WORDS = 500
+        MAX_WORDS = 500000
         import re
         res = len(re.findall(r"\w+", doc))
         if res > MAX_WORDS:
