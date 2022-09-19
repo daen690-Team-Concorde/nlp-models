@@ -50,7 +50,7 @@ st.markdown("## ✏️ Paste text")
 
 with st.form(key="my_form"):
 
-    ce, c1, ce, c2, c3 = st.columns([0.07, 1, 0.07, 5, 0.07])
+    ce, c1, ce, c2, c3 = st.columns([0.07, 2, 0.07, 3, 0.07])
     with c1:
         ModelType = st.radio(
             "Choose your model",
