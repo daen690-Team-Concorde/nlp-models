@@ -1,0 +1,9 @@
+seaborn
+matplotlib
+streamlit==1.12.2
+pandas == 1.2.4
+keybert
+flair
+click<8
+rake-nltk
+yake
